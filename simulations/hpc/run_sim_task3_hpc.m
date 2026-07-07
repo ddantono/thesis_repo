@@ -31,7 +31,7 @@
 FRAMEWORK_ROOT = '/home/d/ddantono/svar';
 
 % Total MC runs (1000 for final results, 20 for quick test)
-N_MC_TOTAL = 200;
+N_MC_TOTAL = 1000;
 
 % Number of Slurm array tasks (must match #SBATCH --array in .sh script)
 N_BATCHES = 20;   % 20 tasks × 50 runs = 1000 total
